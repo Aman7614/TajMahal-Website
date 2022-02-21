@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('taj1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width:100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color:black;
+     display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+    width:25%;text-align: center;
+   font-size: 30px;
+   font-weight:600;
+    
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.menu a{
+    width: 25%;
+    text-decoration: none;
+    
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+section h3{
+    font-size: 35px;font-weight: 200; letter-spacing: 3px;
+    text-shadow: 1px 1px 2px white;
+}
+section h1{
+    margin:30px 0 20px 0;
+    font-size:55px;
+    font-weight: 700;
+    text-shadow:2px 1px 5px white;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom:25px;
+    text-shadow: 1px 1px 1px white;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 16 px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btnone{
+    background: #fff;
+    color:black;
+    border-radius: 15px;
+   
+}
+section .btntwo{
+    background:blueviolet;
+    color:black;
+    border-radius: 15px;
+}
+.change_content:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color:blueviolet;
+}
+@keyframes changetext {
+    0%{content :"Darjeeling";}
+    20%{content: "Agra";}
+    35%{content: "Jaipur";}
+    60%{content:"kerela";}
+    80%{content: "Delhi";}
+    100%{content:"Mumbai"}
+    
+}
+
